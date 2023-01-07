@@ -86,3 +86,36 @@ header {
 .content-details li {
     padding: 8px;
 }
+
+/* Plan Container */
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 300px 100px 250px;
+    text-align: center;
+}
+
+
+.course-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+
+.plan-container img {
+    margin-bottom: 24px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
