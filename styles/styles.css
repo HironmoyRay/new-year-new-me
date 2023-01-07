@@ -166,3 +166,83 @@ header {
 .contact-button:hover {
     background-color: beige;
 }
+
+/* footer */
+footer {
+    background: #151414;
+    color: #FFFFFF;
+
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 130px 230px 0px;
+}
+
+.future-container {
+    margin: 50px 150px 50px 0px;
+
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+
+}
+
+.future-description {
+    margin: 16px 0px 24px 0px;
+}
+
+.future-email {
+    margin-bottom: 16px;
+}
+
+.future-contact {
+    margin-bottom: 16px;
+}
+
+.future-icon {
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.subscribe-container {
+    margin: 50px 150px 50px 0px;
+}
+
+.subscribe {
+    font-weight: 600;
+    font-size: 25px;
+    margin: 15px 25px;
+}
+
+#email {
+    background: #151414;
+    color: #F3F3F3;
+    font-size: 18px;
+    margin: 15px 25px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#email:hover {
+    background-color: beige;
+}
+
+.footer-button {
+    background: #005FAC;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 15px 25px;
+    padding: 10px 15px;
+}
+
+.footer-button:hover {
+    color: beige;
+}
