@@ -53,6 +53,7 @@ header {
 
 .header-button:hover {
     background-color: beige;
+
 }
 
 
@@ -95,7 +96,7 @@ header {
 
 }
 
-.plan-container {
+.course-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,4 +119,50 @@ header {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+/* contact container */
+
+.contact-container {
+    background-image: url(../resource/images/watch.png);
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 130px 230px;
+}
+
+.contact-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.contact-content {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.contact-button {
+    background: #FFFFFF;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    margin: 15px 25px;
+    padding: 10px 15px;
+}
+
+.contact-button:hover {
+    background-color: beige;
 }
