@@ -4,6 +4,9 @@
     margin: 0px;
 }
 
+
+/* Header Section CSS */
+
 header {
     text-align: right;
     background-image: url(../resource/images/banner/banner3.png);
@@ -23,11 +26,19 @@ header {
     margin-bottom: 24px;
 }
 
+.header-title:hover {
+    color: beige;
+}
+
 .header-description {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     margin-bottom: 30px;
+}
+
+.header-description:hover {
+    color: beige;
 }
 
 .header-button {
@@ -42,4 +53,36 @@ header {
 
 .header-button:hover {
     background-color: beige;
+}
+
+
+/* Main Section CSS */
+.content-container {
+    margin: 130px 300px 100px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.content {
+    padding: 10px;
+}
+
+.content-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.content-subtitle {
+    margin-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.content-details li {
+    padding: 8px;
 }
