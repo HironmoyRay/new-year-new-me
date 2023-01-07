@@ -4,7 +4,6 @@
     margin: 0px;
 }
 
-
 /* Header Section CSS */
 
 header {
@@ -56,14 +55,12 @@ header {
 
 }
 
-
 /* Main Section CSS */
 .content-container {
     margin: 130px 300px 100px 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .content {
@@ -83,12 +80,12 @@ header {
     font-family: 'Work Sans', sans-serif;
 }
 
-
 .content-details li {
     padding: 8px;
 }
 
-/* experience */
+/* experience container */
+
 .experience-container {
     background-image: url(../resource/images/gradient1.png);
     background-repeat: no-repeat;
@@ -101,23 +98,30 @@ header {
 .experince-title {
     text-align: center;
     margin: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.experience-subtitle {
+    text-align: center;
+    margin: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
 }
 
 .experience-description {
-    text-align: center;
-    margin: 20px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 18px;
 }
-
-
-
-
 
 /* Plan Container */
 .plan-title {
     text-align: center;
     font-weight: 700;
     font-size: 40px;
-
 }
 
 .course-container {
@@ -127,7 +131,6 @@ header {
     margin: 50px 300px 100px 250px;
     text-align: center;
 }
-
 
 .course-title {
     font-weight: 700;
@@ -146,7 +149,6 @@ header {
 }
 
 /* contact container */
-
 .contact-container {
     background-image: url(../resource/images/watch.png);
     border-radius: 8px;
@@ -191,11 +193,12 @@ header {
     background-color: beige;
 }
 
+
 /* footer */
+
 footer {
     background: #151414;
     color: #FFFFFF;
-
 }
 
 .footer-section {
@@ -206,14 +209,12 @@ footer {
 
 .future-container {
     margin: 50px 150px 50px 0px;
-
 }
 
 .future-title {
     font-weight: 700;
     font-size: 45px;
     color: #F8F8F8;
-
 }
 
 .future-description {
@@ -231,6 +232,10 @@ footer {
 .future-icon {
     margin-top: 32px;
     margin-bottom: 16px;
+}
+
+.future-icon img {
+    margin-right: 50px;
 }
 
 .subscribe-container {
