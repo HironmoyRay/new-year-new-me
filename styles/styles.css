@@ -88,6 +88,30 @@ header {
     padding: 8px;
 }
 
+/* experience */
+.experience-container {
+    background-image: url(../resource/images/gradient1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    padding: 20px 50px;
+}
+
+.experince-title {
+    text-align: center;
+    margin: 20px;
+}
+
+.experience-description {
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+
+
 /* Plan Container */
 .plan-title {
     text-align: center;
